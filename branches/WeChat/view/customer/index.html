@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>wap端-消费者端-首页</title>
+    <!--css lib-->
+    <link rel="stylesheet" type="text/css" href="../../static/css/lib/reset.css">
+    <link rel="stylesheet" type="text/css" href="../../static/css/lib/module.css">
+    <link rel="stylesheet" type="text/css" href="../../static/css/lib/function.css">
+    <link rel="stylesheet" type="text/css" href="../../static/css/lib/animation.css">
+    <!--css plug-->
+    <link rel="stylesheet" type="text/css" href="../../static/css/plug/swiper.min.css">
+    <!--css public-->
+    <link rel="stylesheet" type="text/css" href="../../static/css/public/common.css">
+    <!--css index-->
+    <link rel="stylesheet" type="text/css" href="../../static/css/index.css">
+
+    <style>
+        .swiper-container {
+            width: 100%;
+            height: 202px;
+            margin: 0px auto;
+            overflow: hidden;
+            position: relative;
+            z-index: 1;
+            background: #EFEFEF;
+        }
+        .swiper-slide img {
+            width: auto;
+            height: 202px;
+            display: block;
+            margin: 0px auto;
+            overflow: hidden;
+        }
+        .swiper-slide{
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <!--search start-->
+    <div class="c_search">
+        <div class="c_search_site">定位地址</div>
+        <div class="c_search_input">搜索框</div>
+    </div>
+    <!--search end-->
+    <!--main start-->
+    <main class="mod-main-part">
+        <!-- banner ----------------------------------------------------------- start -->
+        <div class="c_index_banner">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="../../static/images/index/c-index-banner.png" height="202">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../../static/images/index/c-index-banner.png" height="202">
+                    </div>
+                </div>
+                <!--<div class="swiper-pagination"></div>-->
+            </div>
+        </div>
+        <!-- banner ----------------------------------------------------------- end -->
+        <!-- classify ----------------------------------------------------------- start -->
+        <div class="c_index_classify">
+            <ul class="clearfix">
+                <li class="item">
+                    <a href="javascript:void(0)">
+                        <div class="inner">
+                            <span class="icon icon-shop"></span><p class="text">生活购物</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="javascript:void(0)">
+                        <div class="inner">
+                            <span class="icon icon-door"></span><p class="text">一键开门</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="javascript:void(0)">
+                        <div class="inner">
+                            <span class="icon icon-orders"></span><p class="text">我的订单</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- classify ----------------------------------------------------------- end -->
+        <!-- activity ----------------------------------------------------------- start -->
+        <div class="c_index_activity">
+            <div class="c_index_activity_title">优选店家</div>
+        </div>
+        <!-- activity ----------------------------------------------------------- end -->
+        <!-- shop ----------------------------------------------------------- start -->
+        <div class="c_index_shop">
+            <div class="c_index_shop_title">优选店家</div>
+            <ul class="c_index_shop_list clearfix">
+                <li class="clearfix">
+                    <div class="c_index_shop_img"></div>
+                    <div class="c_index_shop_text">
+                        <div class="c_index_shop_text_title">吉田居酒屋</div>
+                        <span></span>
+                        <dl class="c_index_shop_text_list">
+                            <dd>160元起动</dd>
+                            <dd>营业时间：9:00-22:00</dd>
+                        </dl>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <div class="c_index_shop_img"></div>
+                    <div class="c_index_shop_text">
+                        <div class="c_index_shop_text_title">吉田居酒屋</div>
+                        <span></span>
+                        <dl class="c_index_shop_text_list">
+                            <dd>160元起动</dd>
+                            <dd>营业时间：9:00-22:00</dd>
+                        </dl>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- shop ----------------------------------------------------------- end -->
+    </main>
+    <!--main end-->
+    <!--footer-->
+    <footer class="fixed-footer">
+        <ul class="nav">
+            <li class="active">
+                <a href="index.html">
+                    <span class="diy-icon icon-homes"></span>
+                </a>
+            </li>
+            <li>
+                <a href="goods.html">
+                    <span class="diy-icon icon-shop"></span>
+                </a>
+            </li>
+            <li>
+                <a href="housing.html">
+                    <span class="diy-icon icon-housing"></span>
+                </a>
+            </li>
+            <li>
+                <a href="users.html">
+                    <span class="diy-icon icon-users"></span>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <!--footer-->
+    <!--lib js-->
+    <script type="text/javascript" src="../../static/js/lib/jquery.js"></script>
+    <!--plug js-->
+    <script type="text/javascript" src="../../static/js/plug/swiper.js"></script>
+    <!--public js-->
+    <script type="text/javascript" src="../../static/js/public/common.js"></script>
+    <!--index js-->
+    <script type="text/javascript" src="../../static/js/index.js"></script>
+
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            //pagination: '.swiper-pagination',
+            paginationType: 'fraction'
+        });
+    </script>
+
+</body>
+</html>

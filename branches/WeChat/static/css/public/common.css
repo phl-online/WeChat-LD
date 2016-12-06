@@ -1,0 +1,285 @@
+@charset "utf-8";
+/**
+ * ------------------------------------------------------------------
+ * common.css v1.0
+ * @author：乐得云联 front-end team
+ * @time：2016-11-23
+ * ------------------------------------------------------------------
+ */
+
+/*wap端-公共头部*/
+.header {
+    position: fixed;
+    z-index: 9;
+    width: 100%;
+    height: 44px;
+    line-height: 45px;
+    left: 0;
+    top: 0;
+    background: #f7414e;
+}
+.header .title {
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+}
+.header .btn-left,
+.header .btn-right {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 16px;
+    color: #ffffff;
+    width: 80px;
+    height: 44px;
+    text-align: right;
+}
+.header .btn-left {
+    left: 10px;
+    text-align: left;
+}
+.header .lede-icon {
+    font-size: 20px;
+}
+.header .btn-left .lede-icon {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    font-size: 20px;
+}
+header .btn-left .text {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translatey(-50%);
+    -webkit-transform: translateY(-50%);
+    font-size: 18px;
+}
+/*wap端-内容-主体部分*/
+.mod-main-part{
+    position: fixed;
+    top: 43px;
+    bottom: 45px;
+    width: 100%;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    -ms-touch-action: pan-y cross-slide-y;
+    -ms-scroll-chaining: none;
+    -ms-scroll-limit: 0 50 0 50;
+    background: #eeeeee;
+}
+/*wap端-公共底部-工具条*/
+.fixed-footer{
+    position: fixed;
+    width: 100%;
+    height: 45px;
+    left: 0;
+    bottom: 0;
+    background: #fff;
+    border-top: 1px solid #cccccc;
+}
+.fixed-footer .nav{
+    height: 100%;
+}
+.nav li{
+    width: 25%;
+    height: 100%;
+    line-height: 1;
+    text-align: center;
+    font-size: 12px;
+    float: left;
+    color: #9A9A9A;
+    background: #fff;
+}
+.nav li a{
+    color: #9A9A9A;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.nav li.active a{
+    border-top:#f7414e solid 2px;
+}
+.nav .diy-icon {
+    display: inline-block;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.nav .icon-homes {
+    width: 26px;
+    height: 26px;
+    margin-top: 10px;
+    background-image: url("../../images/icon/home.png");
+}
+.nav .icon-shop{
+    width: 26px;
+    height: 26px;
+    margin-top: 11px;
+    background-image: url("../../images/icon/shop.png");
+}
+.nav .icon-housing{
+    width: 24px;
+    height: 26px;
+    margin-top: 10px;
+    background-image: url("../../images/icon/housing.png");
+}
+.nav .icon-users {
+    width: 24px;
+    height: 24px;
+    margin-top: 10px;
+    background-image: url("../../images/icon/user.png");
+}
+.nav li.active a .icon-homes {
+    background-image: url("../../images/icon/home-01.png");
+}
+.nav li.active a .icon-shop {
+    background-image: url("../../images/icon/shop-01.png");
+}
+.nav li.active a .icon-housing {
+    background-image: url("../../images/icon/housing-01.png");
+}
+.nav li.active a .icon-users {
+    background-image: url("../../images/icon/user-01.png");
+}
+/*wap端-消费者端-搜索*/
+.c_search{
+    width: 100%;
+    height: 43px;
+    background: #f7414e;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9;
+}
+.c_search_site{
+    width: 35%;
+    float: left;
+}
+.c_search_text{
+    width: 65%;
+    float: left;
+}
+/*wap端-公共弹框*/
+.weui_mask {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+.weui_dialog {
+    position: fixed;
+    z-index: 13;
+    width: 85%;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #FAFAFC;
+    text-align: center;
+    border-radius: 12px;
+}
+.weui_dialog_hd {
+    width: 100%;
+    height: auto;
+    margin: 15px 0px;
+    font-size: 16px;
+}
+.weui_dialog_title {
+    width: 40px;
+    height: 40px;
+    background: url("../../images/icon/btip.png") no-repeat;
+    background-size: 40px 40px;
+    margin: 0px auto;
+    color: #888;
+    display: block;
+}
+.weui_dialog_bd {
+    padding: 0px 15px;
+    font-size: 16px;
+    word-wrap: break-word;
+    margin: 15px auto;
+}
+.weui_dialog_ft {
+    position: relative;
+    line-height: 36px;
+    font-size: 16px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0px 15px;
+    margin: 15px 0px;
+}
+.weui_dialog_ft a {
+    display: block;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    position: relative;
+}
+.weui_btn_dialog{
+    height: 36px;
+    line-height: 36px;
+    background: #fec925;
+    color: #333;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    font-size: 16px;
+    width: 45%;
+    margin-right: 5px;
+}
+.weui_btn_dialog.default {
+    color: #353535;
+}
+.weui_btn_dialog a.primary {
+    color: #ffc926;
+}
+.weui_dialog_ft a.primary {
+    border: #ffc926 solid 1px;
+    background: #fff9e5;
+    color: #333;
+}
+.weui_dialog_ft a.primary:hover{
+    background: #fff0cc;
+}
+.weui_dialog_ft a.skip{
+    color: #333;
+}
+.weui_dialog19{
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    z-index: 13;
+    bottom: 20px;
+}
+.weui_dialog19 .close{
+    width: 40px;
+    height: 40px;
+    background: url("../../images/icon/close.png");
+    background-size: 40px 40px;
+    margin: 0px auto;
+    display: block;
+}
+/*wap端-一键删除*/
+.bl-clear{
+    font-size: 15px;
+    cursor: pointer;
+    display: none; 
+    position: absolute;
+    top: 15px;
+    right: 120px;
+    background: url(../../images/icon/clear.png) no-repeat;
+    width: 12px;
+    height: 12px;
+    background-size: contain;    
+}

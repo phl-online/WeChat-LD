@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>商户端-意见反馈</title>
+    <!--css lib-->
+    <link rel="stylesheet" type="text/css" href="../../static/css/lib/reset.css">
+    <link rel="stylesheet" type="text/css" href="../../static/css/lib/module.css">
+    <link rel="stylesheet" type="text/css" href="../../static/css/lib/function.css">
+    <!--css public-->
+    <link rel="stylesheet" type="text/css" href="../../static/css/public/common.css">
+    <!--css users-->
+    <link rel="stylesheet" type="text/css" href="../../static/css/users.css">
+</head>
+<body>
+    <!--header start-->
+    <header class="header">
+        <span id="back" class="btn-left lede-icon icon-arrowleft"></span>
+        <h1 id="title" class="title">意见反馈</h1>
+    </header>
+    <!--header end-->
+    <form>
+        <!--main start-->
+        <main class="mod-main-part">
+           <div class="facebook-title">
+               <h3>货品/商品投诉，常见纠纷问题可致电官网客服</h3>
+               <div class="facebook-tel">
+                    020-82516280
+               </div>
+           </div>
+           <div class="facebook-content">
+               <div class="content-title">问题和建议</div>
+               <div class="facebook-textarea-content">
+                   <div style="position:relative;">
+                       <textarea class="facebook-textarea" onfocus="document.getElementById('note').style.display='none'" onblur="if(value=='')document.getElementById('note').style.display='block'"></textarea>
+                       <div id="note" class="facebook-note" style="display: block;">
+                           请告诉我们您的意见和建议，帮助我们改进和提高
+                       </div>
+                   </div>
+               </div>
+               <div class="content-title">问题和建议（选题、提供问题图片）</div>
+               <ul class="content-list">
+                   <a href="javascript:void(0)"><li></li></a>
+                   <a href="javascript:void(0)"><li></li></a>
+                   <a href="javascript:void(0)"><li></li></a>
+                   <a href="javascript:void(0)"><li></li></a>
+               </ul>
+           </div>
+        </main>
+        <!--main end-->
+        <div class="facebook-submit">
+            <button type="submit" class="submit-btn">提交</button>
+        </div>
+    </form>
+    <!--lib js-->
+    <script type="text/javascript" src="../../static/js/lib/jquery.js"></script>
+    <!--lib js-->
+    <script type="text/javascript" src="../../static/js/plug/swiper.js"></script>
+    <!--public js-->
+    <script type="text/javascript" src="../../static/js/public/common.js"></script>
+    <!--users js-->
+    <script type="text/javascript" src="../../static/js/users.js"></script>
+</body>
+</html>

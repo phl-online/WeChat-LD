@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>商户端-订单详情-拒绝买家申请</title>
+    <!--css lib-->
+    <link rel="stylesheet" type="text/css" href="../../static/css/lib/reset.css">
+    <link rel="stylesheet" type="text/css" href="../../static/css/lib/module.css">
+    <link rel="stylesheet" type="text/css" href="../../static/css/lib/function.css">
+    <!--css public-->
+    <link rel="stylesheet" type="text/css" href="../../static/css/public/common.css">
+    <!--css about-->
+    <link rel="stylesheet" type="text/css" href="../../static/css/goods.css">
+
+    <style>
+        .mod-main-part{
+            bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+    <!--header start-->
+    <header class="header">
+        <span id="back" class="btn-left lede-icon icon-arrowleft"></span>
+        <h1 id="title" class="title">订单详情</h1>
+    </header>
+    <!--header end-->
+    <!--main start-->
+    <main class="mod-main-part">
+        <div class="refuse_dec">
+            建议您与买家协商后，再确定是否拒绝退款。如您拒绝退款后，买家可直接发起维权申请，将会由乐得客服介入处理。
+        </div>
+        <div class="refuse_box">
+            <div class="refuse_box_title">拒绝原因</div>
+            <select class="refuse_box_select">
+                <option>已完成配送完成，商品无质量问题。</option>
+                <option>测试1</option>
+                <option>测试2</option>
+            </select>
+            <div class="refuse_box_title">拒绝说明</div>
+            <div class="refuse_box_explain">
+                <div style="position:relative;">
+                    <textarea class="refuse_box_textarea" onfocus="document.getElementById('note').style.display='none'" onblur="if(value=='')document.getElementById('note').style.display='block'"></textarea>
+                    <div id="note" class="refuse_box_note" style="display: block;">
+                        请填写你拒绝说明的理由
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--main end-->
+    <div class="refuse_btn">
+        <button class="refuse_btn_red">拒绝买家申请</button>
+    </div>
+    <!--lib js-->
+    <script type="text/javascript" src="../../static/js/lib/jquery.js"></script>
+    <!--lib js-->
+    <script type="text/javascript" src="../../static/js/plug/swiper.js"></script>
+    <!--public js-->
+    <script type="text/javascript" src="../../static/js/public/common.js"></script>
+    <!--about js-->
+    <script type="text/javascript" src="../../static/js/goods.js"></script>
+</body>
+</html>

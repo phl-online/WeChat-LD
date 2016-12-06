@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>wap端-消费者端-我的订单</title>
+    <!--css lib-->
+    <link rel="stylesheet" type="text/css" href="../../static/css/lib/reset.css">
+    <link rel="stylesheet" type="text/css" href="../../static/css/lib/module.css">
+    <link rel="stylesheet" type="text/css" href="../../static/css/lib/function.css">
+    <!--css public-->
+    <link rel="stylesheet" type="text/css" href="../../static/css/public/common.css">
+    <!--css users-->
+    <link rel="stylesheet" type="text/css" href="../../static/css/users.css">
+
+    <style>
+        .header{
+            background: none;
+            height: auto;
+        }
+        .users_activity_items li{
+            width: 20%;
+        }
+        .mod-main-part{
+            top: 86px;
+            bottom: 0px;
+        }
+    </style>
+</head>
+<body>
+    <!--header start-->
+    <header class="header">
+        <div class="users_activity_header">
+            <a href="users.html">
+                <span id="back" class="btn-left lede-icon icon-arrowleft"></span>
+            </a>
+            <h1 id="title" class="title">我的订单</h1>
+        </div>
+        <ul class="users_activity_items clearfix">
+            <li class="cur">全部</li>
+            <li>待支付</li>
+            <li>配送中</li>
+            <li>已完成</li>
+            <li>退款</li>
+        </ul>
+    </header>
+    <!--header end-->
+    <!--main start-->
+    <main class="mod-main-part">
+        <ul class="users_orders_list">
+            <li>
+                <div class="orders_title clearfix">
+                    <div class="orders_title_left">乐得便利店</div>
+                    <div class="orders_title_right">已发送</div>
+                </div>
+                <div class="orders_pic_list">
+                    我的订单图片
+                </div>
+                <div class="orders_total">
+                    <div class="orders_total_titme clearfix">
+                        <span class="fl">2016-11-11 17:00</span>
+                        <span class="fr">
+                            <span>共计3件商品</span>
+                            <span>个</span>
+                        </span>
+                    </div>
+                    <div class="orders_total_box">
+                        就是
+                    </div>
+                </div>
+            </li>
+            <li>asdasdasdasd</li>
+        </ul>
+    </main>
+    <!--main end-->
+    <!--lib js-->
+    <script type="text/javascript" src="../../static/js/lib/jquery.js"></script>
+    <!--lib js-->
+    <script type="text/javascript" src="../../static/js/plug/swiper.js"></script>
+    <!--public js-->
+    <script type="text/javascript" src="../../static/js/public/common.js"></script>
+    <!--users js-->
+    <script type="text/javascript" src="../../static/js/users.js"></script>
+</body>
+</html>

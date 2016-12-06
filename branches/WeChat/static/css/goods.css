@@ -1,0 +1,111 @@
+@charset "utf-8";
+/**
+ * ------------------------------------------------------------------
+ * goods.css v1.0
+ * @author：乐得云联 front-end team
+ * @time：2016-11-24
+ * ------------------------------------------------------------------
+ */
+
+/*商户端-订单详情-拒绝买家申请*/
+.refuse_dec{
+    width: 100%;
+    height: 75px;
+    border-bottom: #cccccc solid 1px;
+    background: #ffffff;
+    padding: 10px 25px;
+    color: #b0b0b0;
+    text-indent: 30px;
+}
+.refuse_box{
+    margin: 10px 12px;
+}
+.refuse_box_title{
+    width: 100%;
+    height: 36px;
+    color: #000000;
+}
+.refuse_box_select{
+    width: 100%;
+    height: 36px;
+    background: #ffffff;
+    border: #c0c0c0 solid 1px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    margin-bottom: 30px;
+    text-indent: 20px;
+    color: #c0c0c0;
+}
+.refuse_box_explain{
+    background: #ffffff;
+    height: 145px;
+    border: #c0c0c0 solid 1px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.refuse_box_textarea {
+    width: 100%;
+    height: 145px;
+    position: absolute;
+    background: none;
+    z-index: 1;
+    border: none;
+    padding: 20px 20px;
+}
+.refuse_box_note{
+    color: #a4a4a4;
+    text-indent: 10px;
+    padding: 10px 5px;
+    line-height: 24px;
+}
+.refuse_btn{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0px;
+    border-top: #d0d4d6 solid 1px;
+    background: #f8f8f8;
+}
+.refuse_btn_red{
+    width: 136px;
+    height: 33px;
+    border: #c60a1e  solid 1px;
+    margin: 8px auto;
+    background: none;
+    display: block;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #c60a1e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

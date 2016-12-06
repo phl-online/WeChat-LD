@@ -1,0 +1,195 @@
+@charset "utf-8";
+/**
+ * ------------------------------------------------------------------
+ * reset.css v1.0
+ * @author：乐得云联 front-end team
+ * @time：2016-11-23
+ * ------------------------------------------------------------------
+ */
+
+* {
+    outline: none;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color:rgba(255,255,255,0);
+}
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+body {
+    font-family: "microsoft yahei";
+    font-size: 14px;
+    color: #333;
+}
+body,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre {
+    margin: 0;
+}
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+h1,
+h2,
+h3,
+h4 {
+    font-weight: normal;
+}
+img {
+    vertical-align: middle;
+}
+input,
+textarea,
+select {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-appearance: none;
+    -webkit-user-select: auto;
+    border-radius: 0;
+}
+input:focus,
+textarea:focus,
+select:focus {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-modify: read-write-plaintext-only;
+}
+a:active,
+a:hover {
+    outline: 0
+}
+a {
+    text-decoration: none;
+    outline: 0
+}
+a:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px
+}
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0
+}
+button,
+html input[type=button],
+input[type=reset],
+input[type=submit],
+input[type=radio]
+{
+    -webkit-appearance: button;
+    cursor: pointer
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+em, i {
+    font-style: normal;
+}
+/*字体*/
+@font-face {
+    font-family: "lede-iconfont";
+    font-weight: normal;
+    font-style: normal;
+    src: url('../../fonts/lede-iconfont.ttf') format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+}
+.lede-icon {
+    font-family:"lede-iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.icon-hint:before { content: "\e600"; }
+.icon-image:before { content: "\e601"; }
+.icon-download:before { content: "\e602"; }
+.icon-upload:before { content: "\e603"; }
+.icon-arrowupsolid:before { content: "\e604"; }
+.icon-collect:before { content: "\e605"; }
+.icon-error:before { content: "\e606"; }
+.icon-shuidian:before { content: "\e607"; }
+.icon-reload:before { content: "\e608"; }
+.icon-user:before { content: "\e609"; }
+.icon-install:before { content: "\e60a"; }
+.icon-set:before { content: "\e60b"; }
+.icon-location:before { content: "\e60c"; }
+.icon-focus:before { content: "\e60d"; }
+.icon-smile:before { content: "\e60f"; }
+.icon-message:before { content: "\e610"; }
+.icon-arrowdownsolid:before { content: "\e611"; }
+.icon-service:before { content: "\e623"; }
+.icon-judgecorrect:before { content: "\e612"; }
+.icon-judgeerror:before { content: "\e613"; }
+.icon-correct:before { content: "\e614"; }
+.icon-startwork:before { content: "\e615"; }
+.icon-share:before { content: "\e616"; }
+.icon-lock:before { content: "\e617"; }
+.icon-grieved:before { content: "\e619"; }
+.icon-phone:before { content: "\e61a"; }
+.icon-portrait:before { content: "\e61b"; }
+.icon-arrowleft:before { content: "\e625"; }
+.icon-arrowright:before { content: "\e62b"; }
+.icon-home:before { content: "\e61c"; }
+.icon-paint:before { content: "\e61d"; }
+.icon-collectsolid:before { content: "\e61e"; }
+.icon-mood:before { content: "\e61f"; }
+.icon-telephone:before { content: "\e620"; }
+.icon-check:before { content: "\e624"; }
+.icon-arrowup:before { content: "\e626"; }
+.icon-arrowdown:before { content: "\e627"; }
+/*clear类*/
+.clearfix:before,.clearfix:after {
+    content: ".";
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}/*content:'\0020'表示空格*/
+.cl:after {
+    clear: both;
+}
+.clearfix:after {
+    display: table;
+    content: "";
+    clear: both;
+}
+.clearfix {
+    zoom: 1;
+}
+.clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}

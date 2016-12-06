@@ -1,0 +1,420 @@
+@charset "utf-8";
+/**
+ * ------------------------------------------------------------------
+ * users.css v1.0
+ * @author：乐得云联 front-end team
+ * @time：2016-11-24
+ * ------------------------------------------------------------------
+ */
+
+/*消费者端-个人中心-颜色*/
+.users_red{
+    color: #d52331;
+}
+.users_gray{
+    color: #787878;
+}
+/*消费者端-个人中心*/
+.users_header{
+    width: 100%;
+    height: 225px;
+    background: #ffffff;
+}
+.users_header_logo{
+    width: 105px;
+    height: 105px;
+    border: #cbcbcb solid 1px;
+    border-radius:50%;
+    margin: 0px auto;
+    position: relative;
+    top: 30px;
+}
+/*消费者端-个人中心-信息列表*/
+.users_info_list{
+    background: #ffffff;
+    margin-top: 10px;
+}
+.users_info_column_list{
+    padding: 0 15px 0 10px;
+}
+.users_info_column_list .users_info_column_item{
+    line-height: 44px;
+    color: #666666;
+}
+.users_info_column_item a{
+    color: #666666;
+}
+.users_arrowright{
+    width: 16px;
+    background: url(../images/icon/arrowright.png) no-repeat;
+    height: 16px;
+    background-size: contain;
+    display: block;
+    float: right;
+    margin-top: 14px;
+}
+/*消费者端-个人中心-我的订单*/
+.users_orders_list li{
+    margin-bottom: 10px;
+}
+.orders_title{
+    width: 100%
+    height: 35px;
+    line-height: 35px;
+    padding: 0px 10px;
+    background: #ffffff;
+}
+.orders_title_left{
+    float: left;
+}
+.orders_title_right{
+    float: right;
+}
+.orders_pic_list{
+    width: 100%;
+    height: 90px;
+    padding: 10px;
+}
+.orders_total{
+    width: 100%;
+    height: 80px;
+    background: #ffffff;
+}
+.orders_total_titme{
+    width: 100%;
+    height: 33px;
+    line-height: 33px;
+    border-bottom: #eeeeee solid 1px;
+    padding: 0px 10px;
+}
+.orders_total_box{
+    width: 100%;
+    height: 47px;
+}
+/*消费者端-个人中心-我的活动*/
+.users_activity_header{
+    height: 45px;
+    background: #f7414e;
+}
+.users_activity_items{
+    width: 100%;
+    height: 41px;
+    line-height: 39px;
+    border-bottom: #ececec solid 1px;
+    background: #ffffff;
+}
+.users_activity_items li{
+    width:16.66667%;
+    float: left;
+    text-align: center;
+}
+.users_activity_items li.cur{
+    color: #f7414e;
+    border-bottom: #f7414e solid 2px;
+}
+.users_activity_list li{
+    border-bottom: #f4f4f4 solid 1px;
+    margin-bottom: 10px;
+}
+.users_activity_list_title{
+    width: 100%;
+    height: 61px;
+    background: #ffffff;
+    padding: 15px 13px;
+}
+.activity_title{
+    float: left;
+}
+.activity_title h3{
+    font-size: 14px;
+    color: #000000;
+}
+.activity_title span{
+    color: #7d7d7d;
+}
+.activity_status{
+    float: right;
+    color: #d52331;
+}
+.users_activity_list_content{
+    width: 100%;
+    height: 90px;
+    padding: 7px 10px;
+}
+.users_activity_list_content_left{
+    width: 30%;
+    float: left;
+}
+.activity_pic{
+    width: 75px;
+    height: 75px;
+    display: block;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+}
+.activity_pic img{
+    width: 100%;
+    height: 100%;
+}
+.users_activity_list_content_right{
+    width: 70%;
+    float: left;
+}
+.users_activity_list_content_right h3{
+    font-size: 16px;
+    color: #000000;
+}
+.users_activity_list_total{
+    width: 100%;
+    height: 41px;
+    line-height: 41px;
+    padding: 0px 10px;
+    background: #ffffff;
+    text-align: right;
+    color: #000000;
+    font-size: 14px;
+}
+/*商户端、消费者端-关于我们*/
+.mod-top {
+    height: 190px;
+    padding-top: 50px;
+}
+.mod-top .img-box {
+    height: 60px;
+    text-align: center;
+    margin: 0 auto;
+}
+.mod-top .img-box img {
+    height: 100%;
+}
+.mod-top p {
+    text-align: center;
+    margin-top: 10px;
+    color: #000000;
+}
+.mod-column {
+    background: #fff;
+}
+.mod-column .column-list {
+    border-top: 1px solid #d8d8d8;
+}
+.column-list .column-item {
+    line-height: 44px;
+    border-bottom: 1px solid #d8d8d8;
+    padding: 0 15px;
+    font-size: 14px;
+    color: #000000;
+}
+.column-item span,
+.column-item a {
+    font-size: 15px;
+    color: #999;
+    float: right;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.column-item .service-tel {
+    color: #33B5E6;
+    text-decoration: none;
+}
+.copyright{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    bottom: 12px;
+    text-align: center;
+    color: #cccccc;
+}
+/*商户端-意见反馈*/
+.facebook-title{
+    width: 100%;
+    height: 100px;
+    border-bottom: #c0c0c0 solid 1px;
+    padding: 15px 0px;
+    background: #ffffff;
+}
+.facebook-title h3{
+    font-size: 14px;
+    text-align: center;
+    color: #a3a3a3;
+    line-height: 32px;
+    height: 32px;
+}
+.facebook-tel{
+    width: 140px;
+    height: 30px;
+    margin: 8px auto 0px auto;
+    line-height: 30px;
+    border: #c0c0c0 solid 1px;
+    border-radius: 5px;
+    color: #3696ff;
+    background: url("../../static/images/icon/tel-icon.png") no-repeat 5px 4px;
+    background-size: 20px 20px;
+    text-indent: 30px;
+}
+.facebook-content{
+    padding: 20px 15px;
+}
+.facebook-content .content-title{
+    height: 33px;
+    line-height: 33px;
+    color: #080808;
+    font-size: 14px;
+}
+.facebook-submit{
+    width: 100%;
+    height: 50px;
+    border-top:#c0c0c0 solid 1px;
+    background: #ffffff;
+    position: fixed;
+    bottom: 0px;
+}
+.facebook-submit .submit-btn{
+    width: 120px;
+    height: 34px;
+    line-height: 32px;
+    margin: 7px auto;
+    border: #c60a1e solid 1px;
+    border-radius: 5px;
+    display: block;
+    background: none;
+    font-size: 16px;
+    color: #c60a1e;
+}
+.facebook-textarea-content{
+    background: #ffffff;
+    height: 145px;
+    border: #c0c0c0 solid 1px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.facebook-textarea {
+    width: 100%;
+    height: 145px;
+    position: absolute;
+    background: none;
+    z-index: 1;
+    border: none;
+    padding: 20px 20px;
+}
+.facebook-note{
+    color: #a4a4a4;
+    text-indent: 10px;
+    padding: 10px 5px;
+    line-height: 24px;
+}
+.content-list li{
+    float: left;
+    width: 33.33333%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background: url("../images/icon/upload.png") no-repeat;
+    background-size: 89px 89px;
+    height: 89px;
+}
+/*消费者端-意见反馈*/
+.c-facebook{
+    padding: 10px 25px;
+}
+.c-facebook-content-box{
+    width: 100%;
+    height: auto;
+}
+.c-facebook-content{
+    height: 150px;
+    border: #cccccc solid 1px;
+    margin: 0px auto 25px auto;
+    background: #ffffff;
+}
+.c-facebook-textarea {
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    background: none;
+    z-index: 1;
+    border: none;
+    padding: 10px 10px;
+}
+.c-facebook-note{
+    color: #808080;
+    text-indent: 10px;
+    padding: 10px 10px;
+    font-size: 14px;
+}
+.c-facebook-submit{
+    width: 80%;
+    height: 43px;
+    margin: 0px auto;
+    background: #f7414e;
+    color: #ffffff;
+    line-height: 43px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    border: none;
+}
+.c-facebook-history{
+    height: auto;
+    border: #cccccc solid 1px;
+    margin: 44px auto 85px auto;
+    background: #ffffff;
+    padding: 12px 12px;
+}
+.c-facebook-history-title{
+    color: #000000;
+    font-size: 14px;
+}
+.c-facebook-history-list{
+    padding: 10px 0px;
+}
+.c-facebook-history-list li{
+    margin-bottom: 10px;
+}
+.c-facebook-history-list li span{
+    color: #838383;
+    padding-left: 12px;
+}
+.c-facebook-history-list li p{
+    padding-left: 40px;
+    color: #7e7e7e;
+    line-height: 24px;
+    overflow: auto;
+}
+.c-facebook-history-time{
+    width: 100px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    margin: 10px auto;
+    background: #dfdfdf;
+    color: #ffffff;
+    border-radius:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

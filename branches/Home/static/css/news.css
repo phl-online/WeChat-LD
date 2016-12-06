@@ -1,0 +1,33 @@
+@charset "utf-8";
+/**
+ * ------------------------------------------------------------------
+ * news.css v1.0
+ * @author：乐得云联 front-end team
+ * @time：2016-11-24
+ * ------------------------------------------------------------------
+ */
+
+/*资讯-消费者端-使用条款*/
+.agreement-text{
+    padding: 20px 15px;
+    line-height: 24px;
+    font-size: 14px;
+}
+/*资讯-商户端-提现规则*/
+.withdraw-deposit-rule{
+    padding: 25px 15px;
+}
+.withdraw-deposit-rule-title{
+    color: #000000;
+    text-align: center;
+    height: 32px;
+    line-height: 32px;
+    font-size: 18px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.withdraw-deposit-rule-text{
+    text-align: center;
+    color: #585858;
+    font-size: 16px;
+}
