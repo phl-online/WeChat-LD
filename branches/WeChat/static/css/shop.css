@@ -94,6 +94,16 @@
 .goods_store_list_text{
     width: 70%;
     float: left;
+    padding: 10px 5px;
+}
+.store_list_text_title{
+    height: 32px;
+    line-height: 32px;
+    color: #000000;
+    border-bottom: #eeeeee solid 1px;
+}
+.store_list_text_star{
+
 }
 /*商户端-订单详情-拒绝买家申请*/
 .refuse_dec{
