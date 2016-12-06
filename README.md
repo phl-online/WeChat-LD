@@ -2,8 +2,8 @@
 
 ###项目目录
 branches<br/>
-    - Home<br/>
-    - WeChat<br/>
+- Home <br/>
+- WeChat <br/>
 tags<br/>
 trunk<br/>
 
