@@ -143,7 +143,7 @@ header .btn-left .text {
 .nav li.active a .icon-users {
     background-image: url("../../images/icon/user-01.png");
 }
-/*wap端-消费者端-搜索*/
+/*wap端-消费者端- 公共搜索*/
 .c_search{
     width: 100%;
     height: 43px;
@@ -154,12 +154,36 @@ header .btn-left .text {
     z-index: 9;
 }
 .c_search_site{
-    width: 35%;
+    width: 30%;
     float: left;
+    line-height: 43px;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+.c_search_site_icon{
+    width: 25px;
+    height: 25px;
+    background: url("../../images/icon/site.png") no-repeat;
+    background-size: 25px 25px;
+    display: block;
+    float: left;
+    margin-top: 8px;
+    margin-left: 4px;
 }
 .c_search_text{
     width: 65%;
     float: left;
+    background: #ffffff url("../../images/icon/search.png") no-repeat 10px 4px;
+    background-size: 18px 18px;
+    height: 26px;
+    line-height: 26px;
+    outline: none;
+    color: #cdcdcd;
+    font-size: 14px;
+    border-radius:20px;
+    border: none;
+    margin-top: 8px;
+    text-indent: 40px;
 }
 /*wap端-公共弹框*/
 .weui_mask {
