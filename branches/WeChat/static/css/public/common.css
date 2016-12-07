@@ -161,14 +161,15 @@ header .btn-left .text {
     font-size: 14px;
 }
 .c_search_site_icon{
-    width: 25px;
-    height: 25px;
+    width: 22px;
+    height: 22px;
     background: url("../../images/icon/site.png") no-repeat;
-    background-size: 25px 25px;
+    background-size: 22px 22px;
     display: block;
     float: left;
-    margin-top: 8px;
-    margin-left: 4px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .c_search_text{
     width: 65%;
