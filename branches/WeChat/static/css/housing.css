@@ -81,7 +81,7 @@
     padding: 0px 12px;
 }
 .housing_notice_content li{
-    height: 65px;
+    height: 75px;
     border-bottom: #eeeeee solid 1px;
 }
 .housing_notice_content li:last-child{
@@ -104,7 +104,11 @@
     float: right;
     margin-top: 5px;
 }
-.housing_notice_right >h3{
+.housing_notice_right a{
+    font-size: 14px;
+    color: #000000;
+}
+.housing_notice_right >a >h3{
     font-size: 14px;
     font-weight: normal;
 }
