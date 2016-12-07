@@ -7,6 +7,144 @@
  * ------------------------------------------------------------------
  */
 
+/*小区-搜索*/
+.housing_search{
+    width: 90%;
+    height: 27px;
+    background: #ffffff;
+    margin: 8px auto;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+/*小区-品类选择*/
+.housing_option{
+    width: 100%;
+    height: 70px;
+    background: #FFFFFF;
+}
+.housing_option_classify{
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+    padding: 9px 0px;
+}
+.housing_option_classify .item {
+    float: left;
+    width:33.33333%;
+    height: 73px;
+    text-align: center;
+}
+.housing_option_classify .item .text {
+    margin-top: 4px;
+    font-size: 14px;
+    color: #666666;
+}
+.housing_option_classify .item .icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: url(../images/index/index-icon.png) no-repeat;
+    background-size: cover;
+    margin: 0px auto;
+}
+.housing_option_classify .item .icon-tenement {
+    background-position: 0 0;
+}
+.housing_option_classify .item .icon-door {
+    background-position: 0 -40px;
+    margin-left: 5px;
+}
+.housing_option_classify .item .icon-house {
+    background-position: 0 -80px;
+}
+/*小区-小区公告*/
+.housing_notice{
+    margin-top: 5px;
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+}
+.housing_notice_title{
+    width: 100%;
+    height: 33px;
+    line-height: 33px;
+    padding: 0px 12px;
+    color: #666666;
+    border-bottom: #eeeeee solid 1px;
+}
+.housing_notice_content{
+    width: 100%;
+    height: auto;
+    padding: 0px 12px;
+}
+.housing_notice_content li{
+    height: 65px;
+    border-bottom: #eeeeee solid 1px;
+}
+.housing_notice_content li:last-child{
+    border-bottom: none;
+}
+.housing_notice_left{
+    width: 20%;
+    float: left;
+}
+.housing_notice_left_status{
+    width: 43px;
+    height: 43px;
+    border-radius:50%;
+    border: #000 solid 1px;
+    float: left;
+    margin-top: 5px;
+}
+.housing_notice_right{
+    width: 80%;
+    float: right;
+    margin-top: 5px;
+}
+.housing_notice_right >h3{
+    font-size: 14px;
+    font-weight: normal;
+}
+.housing_notice_right >span{
+    font-size: 14px;
+    color: #999999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
