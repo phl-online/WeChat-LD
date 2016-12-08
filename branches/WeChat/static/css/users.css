@@ -20,14 +20,28 @@
     height: 225px;
     background: #ffffff;
 }
+.users_header_box{
+    padding-top: 30px;
+}
 .users_header_logo{
     width: 105px;
     height: 105px;
     border: #cbcbcb solid 1px;
     border-radius:50%;
     margin: 0px auto;
-    position: relative;
-    top: 30px;
+    overflow: hidden;
+}
+.users_header_logo img{
+    width: 100%;
+    height: 100%;
+}
+.users_header_tel{
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 30px;
 }
 /*消费者端-个人中心-信息列表*/
 .users_info_list{
@@ -52,6 +66,16 @@
     display: block;
     float: right;
     margin-top: 14px;
+}
+.users_housing_icon{
+    width: 20px;
+    height: 22px;
+    background: url("../images/icon/housing.png") no-repeat;
+    background-size: 20px 22px;
+    display: block;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
 }
 /*消费者端-个人中心-我的订单*/
 .users_orders_list li{
