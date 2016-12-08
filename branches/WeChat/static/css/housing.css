@@ -116,8 +116,34 @@
     font-size: 14px;
     color: #999999;
 }
-
-
+/*小区-小区公告详情*/
+.housing_details_title{
+    width: 100%;
+    height: auto;
+    padding-top: 15px;
+    border-bottom: #eeeeee solid 1px;
+}
+.housing_details_title >h3{
+    font-size: 18px;
+    text-align: center;
+    color: #1e1e1e;
+}
+.housing_details_title >span{
+    text-align: center;
+    color: #999999;
+    font-size: 13px;
+    display: block;
+    margin: 15px 0px;
+}
+.housing_details_content{
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+    line-height: 32px;
+    color: #666666;
+    padding: 10px;
+    text-indent: 40px;
+}
 
 
 
