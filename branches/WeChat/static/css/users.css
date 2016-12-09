@@ -16,7 +16,20 @@
 .login_items{
     width: 100%;
     height: 40px;
+    line-height: 40px;
     border-bottom: #cccccc solid 1px;
+}
+.login_items li{
+    width: 50%;
+    float: left;
+    text-align: center;
+    color: #666666;
+    font-size: 14px;
+}
+.login_list_box{
+    width: 100%;
+    height: auto;
+    padding: 12px;
 }
 /*消费者端-个人中心-颜色*/
 .users_red{
