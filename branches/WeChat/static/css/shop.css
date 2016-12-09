@@ -7,6 +7,10 @@
  * ------------------------------------------------------------------
  */
 
+/*消费者端-商城-文字颜色*/
+.shop_black{
+    color: #1e1e1e;
+}
 /*消费者端-商城-首页-品类选择*/
 .goods_option{
     width: 100%;
@@ -362,6 +366,54 @@
     color: #ffffff;
 }
 /*消费者端-商家-商品-确认支付*/
+.confirm_item{
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+    margin-top: 10px;
+}
+.confirm_item_title{
+    height: 35px;
+    line-height: 35px;
+    padding: 0px 10px;
+    border-bottom: #eeeeee solid 1px;
+    color: #666666;
+}
+.confirm_item_title_line{
+    width: 2px;
+    height: 20px;
+    background: #f7414f;
+    display: block;
+    float: left;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+.confirm_item_content{
+    padding: 0px 10px;
+}
+.confirm_item_content li{
+    border-bottom: #eeeeee solid 1px;
+}
+.confirm_item_content li:last-child{
+    border-bottom: none;
+}
+.confirm_item_housing{
+    height: 35px;
+    line-height: 35px;
+}
+.confirm_item_common{
+    padding: 10px 0px;
+}
+.confirm_item_housing_icon{
+    width: 20px;
+    height: 22px;
+    background: url("../images/icon/housing.png") no-repeat;
+    background-size:20px 22px;
+    display: block;
+    float: left;
+    margin-top: 6px;
+    margin-right: 10px;
+}
 .confirm_total{
     width: 100%;
     height: 50px;
