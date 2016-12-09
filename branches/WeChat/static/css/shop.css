@@ -288,12 +288,27 @@
 .goods_details_banner{
     width: 100%;
     height: 220px;
-    background: #666666;
 }
 .goods_details_info{
     width: 100%;
     height: 70px;
     border-bottom: #cccccc solid 1px;
+    background: #ffffff;
+    padding: 0px 10px;
+}
+.goods_details_info_title{
+    padding-top: 10px;
+    height: 24px;
+    line-height: 24px;
+    color: #1e1e1e;
+    font-size: 14px;
+}
+.goods_details_info_content{
+    padding-top: 15px;
+}
+.goods_details_info_content >span{
+    color: #f7414f;
+    font-size: 18px;
 }
 .goods_details_content{
     width: 100%;
