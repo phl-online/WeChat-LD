@@ -284,6 +284,68 @@
     margin-top: 14px;
     margin-right: 7px;
 }
+/*消费者端-商家-商品-商品详情*/
+.goods_details_banner{
+    width: 100%;
+    height: 220px;
+    background: #666666;
+}
+.goods_details_info{
+    width: 100%;
+    height: 70px;
+    border-bottom: #cccccc solid 1px;
+}
+.goods_details_content{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    background: #ffffff;
+}
+.goods_details_content_title{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    border-bottom: #eeeeee solid 1px;
+    color: #666666;
+    padding: 0px 10px;
+}
+.goods_details_content_list{
+    padding: 0px 10px;
+}
+.goods_details_content_list li{
+    color: #666666;
+    line-height: 35px;
+    border-bottom: #eeeeee solid 1px;
+}
+.goods_details_content_list li:last-child{
+    border-bottom: none;
+}
+.goods_details_total{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    position: fixed;
+    bottom: 0;
+}
+.goods_details_total_price{
+    width: 70%;
+    float: left;
+    background: #333333;
+    padding: 0px 10px;
+    color: #ffffff;
+    font-size: 20px;
+}
+.goods_details_total_pay{
+    width: 30%;
+    float: left;
+    background: #ff5d70;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+}
+.goods_details_total_pay a{
+    color: #ffffff;
+}
 /*商户端-订单详情-拒绝买家申请*/
 .refuse_dec{
     width: 100%;
